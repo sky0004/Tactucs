@@ -69,6 +69,7 @@ public class ButtonManager : MonoBehaviour {
     {
         if (GameData.fClickDelay == 0)
         {
+            GameData.gNowPlayer.GetComponent<Status>().bIsAction = true;
             GameData.fClickDelay = 0.1f;
         }
     }

@@ -14,6 +14,7 @@ public class Status : MonoBehaviour {
 
     public bool bIsMoved = false;
     public bool bIsAction = false;
+    public bool bIsEnd = false;
 
 
     void Start () {
@@ -29,6 +30,13 @@ public class Status : MonoBehaviour {
     }
 	
 	void Update () {
-		
+		if(bIsAction && bIsMoved)
+        {
+            bIsEnd = true;
+        }
+        else
+        {
+            bIsEnd = false;
+        }
 	}
 }

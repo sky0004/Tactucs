@@ -29,12 +29,14 @@ public class MapManager : MonoBehaviour {
     private bool m_bChInit;
     private bool m_bIsFindRange;
 
+    void Awake()
+    {
+        MakeMap();
+    }
 
-    void Start()
+        void Start()
     {
         m_bChInit = true;
-
-        MakeMap();
     }
 
     void Update()
