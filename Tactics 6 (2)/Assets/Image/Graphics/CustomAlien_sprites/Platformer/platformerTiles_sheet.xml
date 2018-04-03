@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="platformergTile_01.png"	x="336"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_02.png"	x="672"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_03.png"	x="672"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_04.png"	x="672"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_05.png"	x="672"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_06.png"	x="672"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_07.png"	x="560"	y="774"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_08.png"	x="560"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_09.png"	x="560"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_10.png"	x="560"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_11.png"	x="560"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_12.png"	x="560"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_13.png"	x="560"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_14.png"	x="448"	y="774"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_15.png"	x="448"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_16.png"	x="448"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_17.png"	x="448"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_18.png"	x="448"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_19.png"	x="448"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_20.png"	x="448"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_21.png"	x="336"	y="774"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_22.png"	x="336"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_23.png"	x="336"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_24.png"	x="336"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_25.png"	x="672"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_26.png"	x="336"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_27.png"	x="336"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_28.png"	x="224"	y="774"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_29.png"	x="224"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_30.png"	x="224"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_31.png"	x="224"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_32.png"	x="224"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_33.png"	x="224"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_34.png"	x="224"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_35.png"	x="112"	y="774"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_36.png"	x="112"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_37.png"	x="112"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_38.png"	x="112"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_39.png"	x="112"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_40.png"	x="112"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_41.png"	x="112"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_42.png"	x="0"	y="774"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_43.png"	x="0"	y="645"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_44.png"	x="0"	y="516"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_45.png"	x="0"	y="387"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_46.png"	x="0"	y="258"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_47.png"	x="0"	y="129"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+	<SubTexture name="platformergTile_48.png"	x="0"	y="0"	width="111"	height="128" frameX="-0" frameY="-0" frameWidth="111" frameHeight="128"/>
+</TextureAtlas>
