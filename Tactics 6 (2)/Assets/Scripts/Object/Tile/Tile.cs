@@ -20,27 +20,32 @@ public class Tile : MonoBehaviour {
 
     void CastRay() // 유닛 히트처리 부분.  레이를 쏴서 처리합니다. 
     {
-           //이동 가능한 상태이고, 클릭이 되었다면
+        RaycastHit2D temp = new RaycastHit2D();
+
+            //이동 가능한 상태이고, 클릭이 되었다면
         if (Input.GetMouseButtonUp(0) && bChClick && bMoveRangeOn && GameData.fClickDelay == 0)      
         {
             Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero, 0f);
 
-            if (hit.collider != null && hit.collider.gameObject == this.gameObject)
+            if (hit.collider != null && temp != hit)
             {
-                if (GameData.iNowState == 0 && !GameData.gNowPlayer.GetComponent<Status>().bIsEnd)
+                if (hit.collider.gameObject == this.gameObject)     //자신의 타일상 좌표를 반환
                 {
-                    GameData.gNowPlayer = transform.parent.GetComponent<Tiles>().gIsOnPlayer;
-                    GameData.iNowState = 1;
-                }
+                    if(GameData.iNowState == 0)
+                    {
 
-                else if (GameData.iNowState == 4)
-                {
-                    GameData.tFinalTile.X = X;
-                    GameData.tFinalTile.Y = Y;
-                    GameData.tFinalTile.Z = Z;
-                    GameData.bIsClick = true;
-                }
+                    }
+
+                    else if (GameData.iNowState == 4)
+                    {
+                        GameData.tFinalTile.X = X;
+                        GameData.tFinalTile.Y = Y;
+                        GameData.tFinalTile.Z = Z;
+                        GameData.bIsClick = true;
+                    }
+
+                };
             }
         }
     }
